@@ -561,6 +561,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  
 }
 
 @media (min-width: 576px) {
@@ -2597,7 +2598,6 @@ textarea.form-control {
 .btn:hover {
   color: #212529;
   text-decoration: none;
-
 }
 
 .btn:focus, .btn.focus {
@@ -6920,39 +6920,9 @@ a.close.disabled {
   vertical-align: text-top !important;
 }
 
-.bg-primary-about {
+.bg-primary {
   background-color: #c9512f !important;
-  /** New CSS **/
-  
-  /** New CSS **/
 }
-
-.bg-primary-about2 {
-  padding-top: 10rem;
-  padding-bottom: calc(10rem - 72px);
-  background: -webkit-gradient(linear, left top, left bottom, from(#c9512f), to(#c9512f)), url("../img/bg-about.jpg");
-  background: linear-gradient(to bottom, rgba(22, 18, 15, 0.8) 0%, rgba(172, 80, 14, 0.8) 100%), url("../img/bg-about.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-}
-
-
-.bg-primary-whymh {
-  padding-top: 10rem;
-  padding-bottom: calc(10rem - 72px);
-  background: -webkit-gradient(linear, left top, left bottom, from(#1d204b), to(#1b1c52)), url("../img/whymhteach.png");
-  background: linear-gradient(to bottom, rgba(22, 18, 15, 0.8) 0%, rgba(3, 21, 80, 0.8) 100%), url("../img/whymhteach.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-}
-
-
-
-
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
@@ -7179,24 +7149,6 @@ button.bg-dark:focus {
 .d-block {
   display: block !important;
 }
-
-.ctpara {
-  display: block !important;
-  text-align: center !important;
-  font-family: "Merriweather Sans";
-  color: rgb(36, 36, 36);
-  font-size: 1.2rem;
-
-
-}
-
-.ctpara:hover {
-  text-decoration: none;
-
-
-}
-
-
 
 .d-table {
   display: table !important;
@@ -10422,38 +10374,7 @@ button.bg-dark:focus {
 }
 
 .text-white {
-  color: rgb(255, 255, 255) !important;
-}
-
-.titlefbk{
-  font-size: 26px;
-  color: rgb(255, 255, 255) !important;
-  font-weight: bold;
-  font-family: "Merriweather Sans";
-  
-
-  -webkit-transition: all 1s;
-  -moz-transition: all 1s;
-    -o-transition: all 1s;
-       transition: all 1s;
- 
-
-}
-
-
-
-
-.titlefbk:hover{
-  color: #f4623a !important;
-  font-weight: bold;
-  font-size: 30px;
-  text-decoration: none;
-  
-
-}
-
-.text-whyp {
-  color: rgba(255, 255, 255, 0.808) !important;
+  color: #fff !important;
 }
 
 .text-primary {
@@ -10531,7 +10452,17 @@ a.text-dark:hover, a.text-dark:focus {
 .text-zon {
   color: #25282b !important;
   font-size: 1.1rem;
+  
 }
+
+
+.faqsp {
+  color: #17181a !important;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Merriweather Sans"
+}
+
 
 .text-black-50 {
   color: rgba(0, 0, 0, 0.5) !important;
@@ -10541,41 +10472,6 @@ a.text-dark:hover, a.text-dark:focus {
   color: rgba(255, 255, 255, 0.959) !important;
   font-size: 1.3rem;
 }
-
-.text-white-50ab {
-  color: rgba(255, 255, 255, 0.959) !important;
-  font-size: 1.3rem;
-  font-style: italic;
-  font-weight: 500;
-}
-
-
-.text-gray-50prc {
-  color: rgba(66, 66, 66, 0.959) !important;
-  text-align: center !important;
-  font-size: 1.4rem;
-  font-style: italic;
-  font-weight: 500;
-}
-
-.whymhtext {
-  color: rgba(255, 255, 255, 0.959) !important;
-  font-size: 1.2rem;
-  font-style: italic;
-}
-
-
-.bkow1 {
-  color: rgba(46, 46, 46, 0.959) !important;
-  font-size: 1.2rem;
-  font-style: regular;
-  text-align: center !important;
-
-}
-
-
-
-
 
 .text-hide {
   font: 0/0 a;
@@ -10795,28 +10691,16 @@ hr.light {
 }
 
 header.masthead {
-  position: relative;
-  background-color: black;
-  height: 100vh;
-  min-height: 25rem;
-  width: 100%;
-  overflow: hidden;
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 72px);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(4, 18, 61, 0.637)), to(rgba(92, 77, 66, 0.8))), url("../img/icons/kids.png");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(16, 30, 61, 0.8) 100%), url("../img/icons/kids.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
 
-header.masthead video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: 0;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-}
 
 header.masthead h1 {
   font-size: 2.25rem;
@@ -11179,8 +11063,8 @@ q {
     padding: 30px;
     background-color: transparent;
     transition: transform .2s; /* Animation */
-    width: 100%;
-    height: 100%;
+    width: 75%;
+    height: 75%;
     margin: 0 auto;
   }
   
@@ -11192,18 +11076,11 @@ q {
   .videoWrapper {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
     height: 0;
     
   }
   
-  .videoWrapper video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-
   .videoWrapper iframe {
     position: absolute;
     top: 0;
@@ -11252,226 +11129,58 @@ q {
   }
   /** Pricing Table **/
 
-  /** About Me Card**/
+  .pl01 {
 
-  .aboutmecard {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    background-color: white;
-    display: block;
+  text-align: center;
+
+  }
+
+ table.tb01 {
+
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-  }
   
-  .aboutmecard h4 {
+   
+  }
+
+  .bkow1 {
+    color: rgba(46, 46, 46, 0.959) !important;
+    font-size: 1.2rem;
+    font-style: regular;
+    text-align: center !important;
+  
+  }
+
+  .legaltxt {
+    color: rgba(58, 58, 58, 0.959) !important;
+    font-size: 1.2rem;
+    font-style: italic;
+    text-align: center !important;
+  
+  }
+
+  .uldef{
+    color: #f4623a !important;
+    font-size: 1.1rem;
+    font-style: italic;
+    text-align: center;
+    list-style-position: inside;
+    position: relative;
+    left: -25px;
+    }
+
+  .imgless {
   text-align: center;
-  }
-  
-  .aboutmecard p {
-  text-align: center;
-  }
-  
-  .aboutmecard:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  
-  .container1 {
-    padding: 2px 16px;
-    
+  position: relative;
 
   }
 
 
-  @media screen and (max-width: 1200px) {
-    .aboutmecard {
-      width: 50%;
-  
+  .spectext{
+    color: #f4623a !important;
+    font-size: 1.1rem;
+    font-style: italic;
+    text-align: center;
+    position: relative;
     }
-  }
-  
-  @media screen and (max-width: 1024px) {
-    .aboutmecard {
-     
-      width: 50%;
-      
-  
-    }
-  }
-  
-  @media screen and (max-width: 992px) {
-      .aboutmecard {
-       
-      width: 50%;
-      }
-    }
-  
-  
-  @media screen and (max-width: 768px) {
-      .aboutmecard {
-       
-        width: 50%;
-  
-      }
-    }
-  
-  
-  
-  @media screen and (max-width: 576px) {
-    .aboutmecard {
-     
-      width: 70%;
-  
-    }
-  }
-  
-  @media screen and (max-width: 414px) {
-    .aboutmecard {
-     
-      width: 70%;
-  
-    }
-  }
-  
-  @media screen and (max-width: 375px) {
-    .aboutmecard {
-     
-      width: 80%;
-  
-    }
-  }
-  
-  @media screen and (max-width: 320px) {
-    .aboutmecard {
-     
-      width: 80%; 
-  
-    }
-  }
-  
-
-
-
-    /** About Me Card **/
-  
-    .abtmebg{
-      min-width: 992px !important;
-    }
-
-
-   /** Slideshow **/
-
-
-
-/* THE DIV */
-.simple-ss {
-  width:700px;
-  height:300px;
-  background-color:white;
-  margin:auto;
-  display: block;
-  background-image:url("../img/ssbg.png");
-  background-position:0;
-  background-repeat:no-repeat;
-  background-size:cover;
-
-/* ANIMATING STUFF */
-  animation-name: slide;
-  animation-duration: 13s;
-  animation-direction: normal;
-  animation-timing-function: ease;
-  animation-iteration-count: infinite;
-}
-
-
-@keyframes slide {
-  0% {background-position:0 0;}
-  16.66% {background-position:0 0;}
-  33.32% {background-position:-700px 0;}
-  49.98% {background-position:-700px 0;}
-  66.64% {background-position:-1400px 0;}
-  83.30% {background-position:-1400px 0;}
-  100% {background-position:0 0;}
-}
-
-
-@media screen and (max-width: 1200px) {
-  .simple-ss {
-   
-    width:700px;
-
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .simple-ss {
-   
-    width:600px;
-
-  }
-}
-
-@media screen and (max-width: 992px) {
-    .simple-ss {
-     
-      width:600px;
-
-    }
-  }
-
-
-@media screen and (max-width: 768px) {
-    .simple-ss {
-     
-      width:550px;
-
-    }
-  }
-
-
-
-@media screen and (max-width: 576px) {
-  .simple-ss {
-   
-    width:500px;
-
-  }
-}
-
-@media screen and (max-width: 414px) {
-  .simple-ss {
-   
-    width:300px;
-
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .simple-ss {
-   
-    width:300px;
-
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .simple-ss {
-   
-    width:250px;
-
-  }
-}
-
-   /** Slideshow **/
-
-
-
-   .center1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-
-
-  
