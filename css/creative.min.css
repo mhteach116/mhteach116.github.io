@@ -7197,6 +7197,31 @@ button.bg-dark:focus {
 }
 
 
+.ctpara2 {
+  display: block !important;
+  text-align: center !important;
+  font-family: "Merriweather Sans";
+  color: rgb(36, 36, 36);
+  font-size: 1.2rem;
+  transition: transform .2s; /* Animation */
+
+
+}
+
+.ctpara2:hover {
+  text-decoration: none;
+  transform: scale(1.2);
+
+
+
+}
+
+
+
+
+
+
+
 
 .d-table {
   display: table !important;
