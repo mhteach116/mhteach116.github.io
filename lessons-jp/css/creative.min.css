@@ -11499,4 +11499,21 @@ q {
   }
 
 
+ /** Subtitle H3 **/
+  .subtitletxt {
+
+  font-weight: normal;
+  color: white;
+
+
+
+  }
+
   
+  @media screen and (max-width: 576px) {
+    .subtitletxt {
+     
+      font-size: 22px;
+  
+    }
+  }
