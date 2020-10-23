@@ -11502,7 +11502,8 @@ q {
  /** Subtitle H3 **/
   .subtitletxt {
 
-  font-weight: normal;
+  font-size: 25px;
+  font-weight: medium;
   color: white;
 
 
