@@ -11499,22 +11499,6 @@ q {
   }
 
 
- /** Subtitle H3 **/
-  .subtitletxt {
-
-  font-size: 25px;
-  font-weight: medium;
-  color: white;
-
-
-
-  }
-
-  
-  @media screen and (max-width: 576px) {
-    .subtitletxt {
-     
-      font-size: 22px;
-  
-    }
-  }
+  @media screen and (min-width: 600px)  {
+    .mobile-break { display: none; }
+}
